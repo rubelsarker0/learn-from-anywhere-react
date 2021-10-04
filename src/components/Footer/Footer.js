@@ -12,7 +12,7 @@ import './Footer.css';
 
 const Footer = () => {
 	return (
-		<section className="footer-color">
+		<section className="footer footer-color overflow-hidden">
 			<Container>
 				<Row md={2} lg={2} xs={1} className="g-4">
 					<Col className="text-center">

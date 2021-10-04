@@ -3,16 +3,22 @@ import { Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faComment } from '@fortawesome/free-solid-svg-icons';
 import './Course.css';
+import { useHistory } from 'react-router';
 
 const Course = (props) => {
-	console.log(props);
-	const { courseName, startDate, img, category, enroll, comments, price } =
+	const { id, courseName, startDate, img, category, enroll, comments, price } =
 		props.course;
+
+	const history = useHistory();
+
+	const handleCardDetails = () => {
+		history.push(`courses/course/${id}`);
+	};
 
 	return (
 		<div>
 			<Col className="h-100">
-				<Card className="meal-card h-100 home-card">
+				<Card className="meal-card h-100 home-card" onClick={handleCardDetails}>
 					<Card.Img variant="top" src={img} />
 					<Card.Body>
 						<Card.Title className="text-muted">{courseName}</Card.Title>

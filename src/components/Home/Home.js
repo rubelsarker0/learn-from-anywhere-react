@@ -5,7 +5,6 @@ import useCourses from '../../Hooks/useCourses';
 
 const Home = () => {
 	const [courses, setCourses] = useCourses();
-	// console.log(courses);
 
 	return (
 		<>
