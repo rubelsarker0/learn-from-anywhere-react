@@ -13,20 +13,17 @@ const PlanAndPricing = () => {
 					<PricingCard
 						title="Trial"
 						price="$00"
-						desc="Save $00 every year compared to the monthly
-plan by paying yearly."
+						desc="Save $00 every year compared to the monthly plan by paying yearly."
 					></PricingCard>
 					<PricingCard
 						title="Monthly"
 						price="$160"
-						desc="Save $78 every year compared to the monthly
-plan by paying yearly."
+						desc="Save $78 every year compared to the monthly plan by paying yearly."
 					></PricingCard>
 					<PricingCard
 						title="Yearly"
 						price="$255"
-						desc="Save $120 every year compared to the monthly
-plan by paying yearly."
+						desc="Save $120 every year compared to the monthly plan by paying yearly."
 					></PricingCard>
 				</Row>
 			</Container>
