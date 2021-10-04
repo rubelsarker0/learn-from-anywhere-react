@@ -7,7 +7,7 @@ const AllCourses = () => {
 	return (
 		<div>
 			<Courses courses={courses}>
-				<h1 className="fw-bold text-center my-5 text-info">
+				<h1 className="fw-bold text-center my-5 text-muted">
 					Our All Courses Here!
 				</h1>
 			</Courses>

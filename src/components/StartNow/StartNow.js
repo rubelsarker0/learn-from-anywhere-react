@@ -26,7 +26,7 @@ const StartNow = () => {
 						</Button>
 					</Col>
 					<Col>
-						<img src={startNowImg} className="w-100" alt="start-now-image" />
+						<img src={startNowImg} className="w-100" alt="" />
 					</Col>
 				</Row>
 			</Container>

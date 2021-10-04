@@ -4,7 +4,7 @@ import Courses from '../Courses/Courses';
 import useCourses from '../../Hooks/useCourses';
 
 const Home = () => {
-	const [courses, setCourses] = useCourses();
+	const [courses] = useCourses();
 
 	return (
 		<>
