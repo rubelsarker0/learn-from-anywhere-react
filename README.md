@@ -18,5 +18,8 @@ _Our goal is to provide eduction to everyone in every sector_
 
 - [x] https://github.com/ProgrammingHeroWC4/review-website-rubelsarker0
 
-> From the project directory run: - [x] npm install.
-> Once the node_modules installed - [x] run: npm start to start the application
+> From the project directory run: -
+
+- [x] npm install.
+  > Once the node_modules installed -
+- [x] run: npm start to start the application
